@@ -67,7 +67,7 @@ const CameraTable = () => {
 
   const handleSearchFilter = (query) => {
     const filtered = cameras.filter((camera) =>
-      camera.name.toLowerCase().includes(query.toLowerCase())
+      (camera.name.toLowerCase().includes(query.toLowerCase()) || camera.location.toLowerCase().includes(query.toLowerCase()))
     );
     setFilteredCameras(filtered);
   };
