@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+#root {
+  width: 100%; /* Set width to 100% of the parent or viewport */
+  height: 100vh;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+.main{
+  background-color: #f7f7f7;
+}
+
+/* General Table Styling */
+.camera-table {
+  width: 100%;
+  border-collapse: collapse;
+  /* margin: 20px auto; */
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.camera-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.camera-table td {
+  padding: 0px 12px;
+  text-align: left;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #7E7E7E
+}
+
+.camera-table th {
+  font-family: 'Inter', sans-serif;
+  padding: 4px 12px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  color: #7E7E7E
+}
+
+.camera-table tr:hover {
+  background-color: #f7f7f7;
+}
+
+
+.camera-table td button {
+  background-color: transparent;
+  border: none;
+  color: none;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: left;
+}
+
+.camera-table td button:hover {
+  color: #f7f7f7;
+}
+
+.pagination-main {
+  display: flex;
+  justify-content: flex-end; /* Align the child div to the right */
+  align-items: center; /* Vertically center the content */
+  gap: 10px; /* Add some space between the buttons */
+}
+
+/* Optional: styling for pagination-sub-div */
+.pagination-sub{
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Space between elements inside the sub-div */
+}
+.search-filter{
+  display: flex;
+  justify-content: space-between;
+}
+.header{
+  padding-top: 1.5rem;
+}
