@@ -2,10 +2,13 @@
 Welcome to the **Wobot.ai Assignment**! 🚀
 This project was completed in record time — but don’t let that fool you. While the clock was ticking, quality was never sacrificed. Every feature, every line of code, and every pixel was carefully crafted to meet the highest standards.
 
-So, if you are lookong into running the application, follow these simple steps.
-Step 1: Make sure you are in directory "camera-list" or run "cd camera-list" in terminal
-Step 2: run "npm install"
-Step 3: run "npm run build"
+You can jump to the deployed project by clicking on https://assignmentmukul0112.netlify.app/ 
+
+Or, if you are lookong into running the application, follow these simple steps.
+Step 1: Clone the repository by running "git clone https://github.com/mukul0112/Wobot.ai_assignment.git"
+Step 2: Make sure you are in directory "camera-list" or run "cd camera-list" in terminal
+Step 3: run "npm install"
+Step 4: run "npm run build"
 
 That's it, you'll be able to see the project running in your browser.
 
