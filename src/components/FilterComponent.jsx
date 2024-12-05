@@ -14,13 +14,13 @@ const FilterComponent = ({
   const handleLocationChange = (event) => {
     const location = event.target.value;
     setSelectedLocation(location);
-    handleDropdownFilter(location, selectedStatus); // Pass both filters
+    handleDropdownFilter(location, selectedStatus); 
   };
 
   const handleStatusChange = (event) => {
     const status = event.target.value;
     setSelectedStatus(status);
-    handleDropdownFilter(selectedLocation, status); // Pass both filters
+    handleDropdownFilter(selectedLocation, status); 
   };
   const handleClearFilters = () => {
     setSelectedLocation("");
